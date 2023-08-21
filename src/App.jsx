@@ -58,7 +58,7 @@ function App(){
 
     return(
         <div className='app'>
-            <h1 style={{color:"grey"}}>Tic Tac Toe</h1>
+            <h1 className='text-orange'>Tic <span className='text-green'>Tac</span> Toe</h1>
 
             <StatusMessage winner={winner} gamingBoard={gamingBoard}/>
 
