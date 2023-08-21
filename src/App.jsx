@@ -72,6 +72,8 @@ function App(){
             <History history={history} moveTo={moveTo} currMove={currMove}/>
 
             <p className='text-orange'>&copy; Vinay</p>
+
+            <div className='bg-balls'/>
         </div>
     );
 }
